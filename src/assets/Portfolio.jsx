@@ -2,17 +2,10 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <main
-      id="portfolio"
-      className="flex w-full flex-col items-center justify-center"
-    >
+    <main id="portfolio" className="flex w-full flex-col items-center justify-center bg-slate-100 pb-15">
       <div className="my-20 flex flex-col items-center justify-center px-4 text-center">
-        <h2 className="font-['Montserrat'] text-[40px] font-bold text-[#212529]">
-          PORTFOLIO
-        </h2>
-        <p className="font-['Roboto_Slab'] text-base font-normal italic text-[#6c757d]">
-          Lorem ipsum dolor sit amet consectetur.
-        </p>
+        <h2 className="font-['Montserrat'] text-[40px] font-bold text-[#212529]">PORTFOLIO</h2>
+        <p className="font-['Roboto_Slab'] text-base font-normal italic text-[#6c757d]">Lorem ipsum dolor sit amet consectetur.</p>
       </div>
 
       <div className="grid w-full grid-cols-1 gap-7 px-4 md:grid-cols-2 md:px-8 lg:grid-cols-3 lg:px-14">
