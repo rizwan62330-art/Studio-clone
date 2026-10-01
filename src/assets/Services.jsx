@@ -4,7 +4,7 @@ import { FaShoppingCart, FaLaptop, FaLock } from 'react-icons/fa';
 export default function Services() {
     return (
         <>
-            <main className="relative flex flex-1 flex-col mb-10">
+            <main className="relative flex flex-1 flex-col mb-20">
                 <div className="flex justify-center items-center flex-col">
                     <h1 className="font-['Montserrat'] text-[40px] font-bold text-[#212529]">SERVICES</h1>
                     <p className="mt-4 font-['Roboto_Slab'] text-base font-normal italic text-[#6c757d]">Lorem ipsum dolor sit amet consectetur.</p>
