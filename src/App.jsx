@@ -4,6 +4,8 @@ import Services from './assets/Services'
 import Portfolio from './assets/Portfolio'
 import About from './assets/About'
 import OurTeam from './assets/OurTeam'
+import Clients from './assets/clients'
+import Footer from './assets/Footer'
 import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Portfolio />
       <About />
       <OurTeam />
+      <Clients />
+      <Footer />
     </>
   )
 }
